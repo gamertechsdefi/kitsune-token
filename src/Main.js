@@ -7,14 +7,14 @@ import "./Main.css";
 function Main() {
   return (
     <div className="mainbody">
-      <div className="flex justify-center  h-screen mt-12">
+      <div className="flex justify-center  h-screen mt-12 ml-8 mr-8">
         <div className="text-center">
           <h1
             id="mainheader"
-            className="text-4xl m-4 font-bold fade-out ml-8 mr-8"
+            className="text-4xl m-4 font-bold fade-out"
             style={{
               fontFamily: "MoonChild, sans-serif",
-              fontSize: "120px",
+              fontSize: "80px",
               color: "#F86EC3",
               wordSpacing: "5px",
               lineHeight: "70px",
@@ -29,8 +29,6 @@ function Main() {
             style={{
               fontFamily: "Quinto, sans-serif",
               letterSpacing: "1px",
-              marginLeft: "5px",
-              marginRight: "5px"
             }}
           >
             Welcome to the realm of Kitsune Token, where innovation meets
