@@ -4,7 +4,7 @@ import aboutImage from "./assets/about_image.png";
 function SectionB() {
   return (
     <div className="container mx-auto text-white">
-      <div className="flex flex-wrap -mx-4 ml-4 mr-4">
+      <div className="flex flex-wrap - mx-4 ml-4 mr-4">
         <div className="w-full sm:w-full md:w-1/2 p-4 flex items-center justify-center">
           <img src={aboutImage} alt="Sample" className="max-w-full h-auto" />
         </div>

@@ -11,13 +11,13 @@ function Main() {
         <div className="text-center">
           <h1
             id="mainheader"
-            className="text-4xl m-4 font-bold fade-out"
+            className="text-4xl m-4 font-bold fade-out ml-8 mr-8"
             style={{
               fontFamily: "MoonChild, sans-serif",
               fontSize: "120px",
               color: "#F86EC3",
               wordSpacing: "5px",
-              lineHeight: "80px",
+              lineHeight: "70px",
               marginTop: "100px",
               animation: "fadeInOut 4s ease-in-out infinite",
             }}
@@ -29,6 +29,8 @@ function Main() {
             style={{
               fontFamily: "Quinto, sans-serif",
               letterSpacing: "1px",
+              marginLeft: "5px",
+              marginRight: "5px"
             }}
           >
             Welcome to the realm of Kitsune Token, where innovation meets
