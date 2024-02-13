@@ -1,0 +1,14 @@
+.card {
+    /* Adjust width, height, and other styles as needed */
+    width: 250px;
+    height: 150px;
+  }
+  
+  @media (min-width: 640px) {
+    .card {
+      width: 300px;
+      height: 200px;
+    }
+  }
+  
+  /* Add other responsive or color styles as needed */

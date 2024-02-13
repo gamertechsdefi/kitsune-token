@@ -1,0 +1,16 @@
+.mainbody {
+    position: relative;
+    z-index: 1;
+}
+
+.mainbody::before {
+    content: "";
+    background-image: url(./assets/bg1.jpg);
+    opacity: 0.2; /* 30% opacity */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
