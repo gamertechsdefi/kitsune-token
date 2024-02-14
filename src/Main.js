@@ -6,7 +6,7 @@ import "./Main.css";
 
 function Main() {
   return (
-    <div className="mainbody">
+    <div className="mainbody" id="home">
       <div className="flex justify-center  h-screen mt-12 ml-8 mr-8">
         <div className="text-center">
           <h1
@@ -22,7 +22,7 @@ function Main() {
               animation: "fadeInOut 4s ease-in-out infinite",
             }}
           >
-            THE MOST POWERFUL FOX
+            THE MOST POWERFUL FOX MEMECOIN
           </h1>
           <p
             className="text-lg text-white p-4 md:p-8 lg:p-12"
@@ -37,6 +37,30 @@ function Main() {
             and adaptability, Kitsune Token is here to revolutionize the DeFi
             landscape.
           </p>
+          <div className=" flex flex-row text-center justify-center">
+          <div className="flex items-center text-center justify-center space-x-2 mr-8">
+              <a
+                href="#"
+                style={{
+                  fontFamily: "Quinto, sans-serif",
+                }}
+                className="font-bold mt-4 py-2 px-3 bg-pink-600 text-white rounded hover:bg-blue-700 transition duration-300"
+              >
+                Buy Now
+              </a>
+            </div>
+            <div className="flex items-center text-center justify-center space-x-2">
+              <a
+                href="#"
+                style={{
+                  fontFamily: "Quinto, sans-serif",
+                }}
+                className="font-bold mt-4 py-2 px-3 bg-pink-600 text-white rounded hover:bg-blue-700 transition duration-300"
+              >
+                Check Chart
+              </a>
+            </div>
+            </div>
         </div>
       </div>
     </div>

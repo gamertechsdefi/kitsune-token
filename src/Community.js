@@ -7,7 +7,7 @@ import buykitImage from "./assets/buykit.png";
 function HowToBuy() {
     return (
       <div
-        className="max-w-4xl mx-auto p-4 text-white mt-16"
+        className="max-w-4xl mx-auto p-4 text-white mt-16" id="community"
         style={{ fontFamily: "Quinto, sans-serif", letterSpacing: "1px" }}
       >
         <h2

@@ -16,7 +16,7 @@ function Header() {
             {/* Logo or Brand name */}
             <div>
               <a
-                href="#"
+                href="https://kitsunetoken.com"
                 className="flex items-center py-5 px-2 text-white font-bold"
               >
                 <img src={logoImage} alt="logo icon" width="45px" />
@@ -25,27 +25,27 @@ function Header() {
             </div>
             {/* Primary Nav */}
             <div className="hidden md:flex items-center space-x-2">
-              <a href="#" className="py-5 px-3 hover:text-gray-400">
+              <a href="#home" className="py-5 px-3 hover:text-gray-400">
                 Home
               </a>
-              <a href="#" className="py-5 px-3 hover:text-gray-400">
+              <a href="#about" className="py-5 px-3 hover:text-gray-400">
                 About
               </a>
-              <a href="#" className="py-5 px-3 hover:text-gray-400">
+              <a href="#tokenomics" className="py-5 px-3 hover:text-gray-400">
                 Keepernomics
               </a>
-              <a href="#" className="py-5 px-3 hover:text-gray-400">
-                KillersBuy
+              <a href="#howtobuy" className="py-5 px-3 hover:text-gray-400">
+                How to buy
               </a>
-              <a href="#" className="py-5 px-3 hover:text-gray-400">
-                Keppers
+              <a href="#community" className="py-5 px-3 hover:text-gray-400">
+                Join the Keepers
               </a>
             </div>
           </div>
           {/* Secondary Nav */}
           <div className="hidden md:flex items-center space-x-1 shake glow">
             <a
-              href="#"
+              href="https://pancakeswap.finance/"
               className="font-bold py-2 px-3 bg-pink-300 text-pink-900 rounded hover:bg-blue-700 hover:text-white transition duration-300"
             >
               Buy now
@@ -75,23 +75,23 @@ function Header() {
       {/* Mobile Menu */}
       <div className={`${isMobileMenuOpen ? "block" : "hidden"} md:hidden`}
       style={{fontFamily: "Quinto, sans-serif"}}>
-        <a href="#" className="block py-2 px-4 text-sm hover:bg-gray-700">
+        <a href="#home" className="block py-2 px-4 text-sm hover:bg-blue-700">
           Home
         </a>
-        <a href="#" className="block py-2 px-4 text-sm hover:bg-gray-700">
+        <a href="#about" className="block py-2 px-4 text-sm hover:bg-blue-700">
           About
         </a>
-        <a href="#" className="block py-2 px-4 text-sm hover:bg-gray-700">
+        <a href="#tokenomics" className="block py-2 px-4 text-sm hover:bg-blue-700">
           Keepernomics
         </a>
-        <a href="#" className="block py-2 px-4 text-sm hover:bg-gray-700">
-          KillersBuy
+        <a href="#howtobuy" className="block py-2 px-4 text-sm hover:bg-blue-700">
+          How to buy
         </a>
-        <a href="#" className="block py-2 px-4 text-sm hover:bg-gray-700">
-          Keepers
+        <a href="#community" className="block py-2 px-4 text-sm hover:bg-blue-700">
+          Join the Keepers
         </a>
         <a
-          href="#"
+          href="https://pancakeswap.finance/"
           className="block font-bold py-2 px-4 text-sm bg-pink-300 text-pink-900 rounded hover:bg-blue-700 hover:text-white transition duration-300"
         >
           Buy now

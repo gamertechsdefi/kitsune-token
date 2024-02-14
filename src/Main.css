@@ -6,6 +6,7 @@
 .mainbody::before {
     content: "";
     background-image: url(./assets/bg1.jpg);
+    background-repeat: no-repeat;
     opacity: 0.2; /* 30% opacity */
     top: 0;
     left: 0;

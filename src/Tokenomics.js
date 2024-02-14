@@ -4,7 +4,7 @@ import nomicsImage from "./assets/nomics_image.png";
 
 function Tokenomics() {
   return (
-    <div className="flex items-center justify-center min-h-screen mx-auto text-white px-4 lg:px-0">
+    <div className="flex items-center justify-center min-h-screen mx-auto text-white px-4 lg:px-0" id="tokenomics">
       <div className="flex flex-wrap justify-center">
         <div className="text-center w-full flex items-center justify-center p-4">
           <div>
