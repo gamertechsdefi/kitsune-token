@@ -1,13 +1,21 @@
-.roadmap-line {
+.roadmapbody {
   position: relative;
+  z-index: 1;
+  width: 100vw; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+  display: block; /* Ensures it's a block-level element */
 }
 
-.roadmap-line::after {
-  content: '';
+.roadmapbody::before {
+  content: "";
+  background-image: url(./assets/roadmap2.jpg);
+  background-size: cover; /* Cover the entire size of the element */
+  background-position: center; /* Center the background image */
+  opacity: 0.2; /* Adjusted comment to match the opacity */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 100%;
-  width: 2px;
-  background-color: #ddd;
+  z-index: -1;
 }
