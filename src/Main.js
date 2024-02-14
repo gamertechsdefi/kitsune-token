@@ -7,7 +7,7 @@ import "./Main.css";
 function Main() {
   return (
     <div className="mainbody" id="home">
-      <div className="flex justify-center  h-screen mt-12 ml-8 mr-8">
+      <div className="flex justify-center  h-screen mt-12 ml-8 mr-8 mb-16">
         <div className="text-center">
           <h1
             id="mainheader"
