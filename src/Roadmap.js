@@ -20,25 +20,25 @@ function Roadmap() {
           Roadmap
         </h2>
         <div className="space-y-4">
-          <div className="bg-blue-500 p-4 rounded-lg shadow-md">
+          <div className="bg-pink-600 p-4 rounded-lg shadow-md">
             <h3 className="font-bold text-lg">Phase 1: Conceptualization</h3>
             <p>Detailing the project's vision, goals, and initial planning.</p>
           </div>
-          <div className="bg-blue-500 p-4 rounded-lg shadow-md">
+          <div className="bg-pink-600 p-4 rounded-lg shadow-md">
             <h3 className="font-bold text-lg">Phase 2: Development & Launch</h3>
             <p>
               Starting the development process & officially launching the
               project to the public
             </p>
           </div>
-          <div className="bg-blue-500 p-4 rounded-lg shadow-md">
+          <div className="bg-pink-600 p-4 rounded-lg shadow-md">
             <h3 className="font-bold text-lg">Phase 3: Moon</h3>
             <p>
               Massive marketing campaigns: influencers, callers, bill boards and
               more
             </p>
           </div>
-          <div className="bg-blue-500 p-4 rounded-lg shadow-md">
+          <div className="bg-pink-600 p-4 rounded-lg shadow-md">
             <h3 className="font-bold text-lg">Phase 4: Expansion</h3>
             <p>
               Expanding the project's reach, adding new features, and growing

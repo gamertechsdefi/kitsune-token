@@ -34,7 +34,7 @@ function HowToBuy() {
             <p className="text-base sm:text-lg">
               Create a TRUST or Metamask Wallet using either a desktop computer
               or an iOS/Android mobile device. That will allow you to buy, sell,
-              send, and receive $SIMBA
+              send, and receive the token
             </p>
           </div>
         </div>
@@ -69,7 +69,7 @@ function HowToBuy() {
             <p className="text-base sm:text-lg">
               Create a TRUST or Metamask Wallet using either a desktop computer
               or an iOS/Android mobile device. That will allow you to buy, sell,
-              send, and receive $SIMBA
+              send, and receive your tokens
             </p>
           </div>
         </div>

@@ -1,87 +1,42 @@
 import React from "react";
-import "./Tokenomics.css";
-import nomicsImage from "./assets/nomics_image.png";
+import "./Tokenomics.css"; // Ensure this CSS file is tailored to match your website's theme
 
 function Tokenomics() {
   return (
-    <div className="flex items-center justify-center min-h-screen mx-auto text-white px-4 lg:px-0" id="tokenomics">
-      <div className="flex flex-wrap justify-center">
-        <div className="text-center w-full flex items-center justify-center p-4">
-          <div>
-            <h1
-              className="font-bold mb-2 text-6xl md:text-8xl"
-              style={{
-                fontFamily: "Moonchild, sans-serif",
-                letterSpacing: "1px",
-                color: "#F86Ec3",
-              }}
-            >
-              Keepernomics
-            </h1>
-            <div className="flex flex-wrap justify-center">
-              <div className="flex flex-col m-4 md:w-1/3">
-                <p
-                  style={{
-                    fontFamily: "Quinto, sans-serif",
-                    letterSpacing: "1px",
-                    fontSize: "40px",
-                  }}
-                >
-                  5%
-                </p>
-                <p
-                  style={{
-                    fontFamily: "Quinto, sans-serif",
-                    letterSpacing: "1px",
-                    fontSize: "20px",
-                  }}
-                >
-                  Marketing
-                </p>
-              </div>
-              <div className="flex flex-col m-4 md:w-1/3">
-                <p
-                  style={{
-                    fontFamily: "Quinto, sans-serif",
-                    letterSpacing: "1px",
-                    fontSize: "40px",
-                  }}
-                >
-                  2%
-                </p>
-                <p
-                  style={{
-                    fontFamily: "Quinto, sans-serif",
-                    letterSpacing: "1px",
-                    fontSize: "20px",
-                  }}
-                >
-                  Burn
-                </p>
-              </div>
-              <div className="flex flex-col m-4 md:w-1/3">
-                <p
-                  style={{
-                    fontFamily: "Quinto, sans-serif",
-                    letterSpacing: "1px",
-                    fontSize: "40px",
-                  }}
-                >
-                  3%
-                </p>
-                <p
-                  style={{
-                    fontFamily: "Quinto, sans-serif",
-                    letterSpacing: "1px",
-                    fontSize: "20px",
-                  }}
-                >
-                  Development
-                </p>
-              </div>
-              {/* If you have more items, they will wrap to the next line on desktop view */}
-            </div> 
-          </div>
+    <div className="flex flex-col items-center justify-center mb-32 min-h-screen text-white">
+      <h1
+        className="text-4xl font-bold mt-32 mb-8"
+        style={{ fontFamily: "MoonChild, sans-serif", fontSize: "80px" }}
+      >
+        Tokenomics
+      </h1>
+      <div
+        className="grid grid-cols-1 md:grid-cols-3 gap-8"
+        style={{ fontFamily: "Quinto, sans-serif", letterSpacing: "1px" }}
+      >
+        <div className="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 bg-pink-700 p-6 rounded-xl shadow-xl">
+          <p className="text-3xl font-semibold">9,000,000,000</p>
+          <p className="text-xl">Total Supply</p>
+        </div>
+        <div className="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 bg-pink-700 p-6 rounded-xl shadow-xl">
+          <p className="text-3xl font-semibold">6,000,000,000</p>
+          <p className="text-xl">Initial Burn</p>
+        </div>
+        <div className="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 bg-pink-700 p-6 rounded-xl shadow-xl">
+          <p className="text-3xl font-semibold">3,000,000,000</p>
+          <p className="text-xl">Circulatory Supply</p>
+        </div>
+        <div className="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 bg-pink-700 p-6 rounded-xl shadow-xl">
+          <p className="text-3xl font-semibold">4%</p>
+          <p className="text-xl">Marketing</p>
+        </div>
+        <div className="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 bg-pink-700 p-6 rounded-xl shadow-xl">
+          <p className="text-3xl font-semibold">2%</p>
+          <p className="text-xl">Liquidity</p>
+        </div>
+        <div className="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 bg-pink-700 p-6 rounded-xl shadow-xl">
+          <p className="text-3xl font-semibold">1%</p>
+          <p className="text-xl">Burn</p>
         </div>
       </div>
     </div>
