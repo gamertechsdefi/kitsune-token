@@ -43,6 +43,7 @@ function Main() {
                 href="#"
                 style={{
                   fontFamily: "Quinto, sans-serif",
+                  letterSpacing: "1px"
                 }}
                 className="font-bold mt-4 py-2 px-3 bg-pink-600 text-white rounded hover:bg-blue-700 transition duration-300"
               >
@@ -54,6 +55,7 @@ function Main() {
                 href="#"
                 style={{
                   fontFamily: "Quinto, sans-serif",
+                  letterSpacing: "1px"
                 }}
                 className="font-bold mt-4 py-2 px-3 bg-pink-600 text-white rounded hover:bg-blue-700 transition duration-300"
               >
