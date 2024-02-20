@@ -37,7 +37,7 @@ function SectionB() {
             </p>
             <div className="flex items-center mt-4 space-x-2">
               <a
-                href="#"
+                href="https://t.me/kitsunetokenentry"
                 style={{
                   fontFamily: "Quinto, sans-serif",
                 }}

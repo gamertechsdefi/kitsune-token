@@ -50,7 +50,7 @@ function Header() {
           {/* Secondary Nav */}
           <div className="hidden md:flex items-center space-x-1 shake glow">
             <a
-              href="https://pancakeswap.finance/"
+              href="https://pancakeswap.finance/swap?outputCurrency=0xb6623B503d269f415B9B5c60CDDa3Aa4fE34Fd22"
               className="font-bold py-2 px-3 bg-pink-300 text-pink-900 rounded hover:bg-blue-700 hover:text-white transition duration-300"
             >
               Buy now
@@ -99,7 +99,7 @@ function Header() {
           Airdrop
         </a>
         <a
-          href="https://pancakeswap.finance/"
+          href="https://pancakeswap.finance/swap?outputCurrency=0xb6623B503d269f415B9B5c60CDDa3Aa4fE34Fd22"
           className="block font-bold py-2 px-4 text-sm bg-pink-300 text-pink-900 rounded hover:bg-blue-700 hover:text-white transition duration-300"
         >
           Buy now
