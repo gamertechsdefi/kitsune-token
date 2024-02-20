@@ -15,7 +15,7 @@ function Main() {
             style={{
               fontFamily: "MoonChild, sans-serif",
               fontSize: "80px",
-              color: "#F86EC3",
+              color: "#F86Ec3",
               wordSpacing: "5px",
               lineHeight: "70px",
               marginTop: "100px",

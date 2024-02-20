@@ -1,25 +1,14 @@
-import './App.css';
-import { BrowserRouter } from 'react-router-dom';
-import Header from './Header.js';
-import Main from './Main.js';
-import Roadmap from './Roadmap.js';
-import Tokenomics from './Tokenomics.js'
-import SectionB from './SectionB.js';
-import KeepersBuy from './Howtobuy.js';
-import JoinOurCommunity from './Community.js';
-
+import "./App.css";
+import { Router, Route, Routes } from "react-router-dom";
+import PageLinks from "./PageLinks.js";
+import Airdrop from "./Airdrop.js";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Main />
-      <SectionB />
-      <Roadmap  />
-      <Tokenomics />
-      <KeepersBuy />
-      <JoinOurCommunity />
-    </div>
+        <Routes>
+          <Route path="/" element={<PageLinks />} />
+          <Route path="/airdrop" element={<Airdrop />} />
+        </Routes>
   );
 }
 

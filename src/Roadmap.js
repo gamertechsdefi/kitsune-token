@@ -17,7 +17,7 @@ function Roadmap() {
             color: "#F86Ec3",
           }}
         >
-          Roadmap
+          ROADMAP
         </h2>
         <div className="space-y-4">
           <div className="bg-pink-600 p-4 rounded-lg shadow-md">

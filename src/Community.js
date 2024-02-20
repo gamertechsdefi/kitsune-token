@@ -18,7 +18,7 @@ function HowToBuy() {
             color: "#F86Ec3",
           }}
         >
-          Socials
+          JOIN THE KEEPERS
         </h2>
         <p
           className="sm:text-white md:text-1xl text-center mb-6"

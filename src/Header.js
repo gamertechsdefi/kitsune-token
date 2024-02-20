@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import logoImage from "./assets/logo.png";
+
 
 function Header() {
   // State to manage mobile menu visibility
@@ -25,9 +27,9 @@ function Header() {
             </div>
             {/* Primary Nav */}
             <div className="hidden md:flex items-center space-x-2">
-              <a href="#home" className="py-5 px-3 hover:text-gray-400">
+              <Link to="/" className="py-5 px-3 hover:text-gray-400">
                 Home
-              </a>
+              </Link>
               <a href="#about" className="py-5 px-3 hover:text-gray-400">
                 About
               </a>
@@ -37,6 +39,9 @@ function Header() {
               <a href="#howtobuy" className="py-5 px-3 hover:text-gray-400">
                 How to buy
               </a>
+              <Link to="/airdrop" className="py-5 px-3 font-bold hover:text-gray-400">
+                Airdrop
+              </Link>
               <a href="#community" className="py-5 px-3 hover:text-gray-400">
                 Join the Keepers
               </a>
@@ -89,6 +94,9 @@ function Header() {
         </a>
         <a href="#community" className="block py-2 px-4 text-sm hover:bg-blue-700">
           Join the Keepers
+        </a>
+        <a href="#airdrop" className="block font-bold py-2 px-4 text-sm hover:bg-blue-700">
+          Airdrop
         </a>
         <a
           href="https://pancakeswap.finance/"

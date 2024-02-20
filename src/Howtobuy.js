@@ -18,7 +18,7 @@ function HowToBuy() {
           color: "#F86Ec3",
         }}
       >
-        How to Buy
+        HOW TO BUY
       </h2>
       <div className="space-y-4">
         {/* Step 1 */}
@@ -50,7 +50,7 @@ function HowToBuy() {
           </div>
           <div className="flex-1">
             <p className="text-base sm:text-lg">
-              Have BNB in your wallet to switch to $SIMBA. If you don’t have any
+              Have BNB in your wallet to switch to the Kitsune Token. If you don’t have any
               BNB, you can buy directly on metamask, transfer from another
               wallet, or buy on another exchange and send it to your wallet.
             </p>
