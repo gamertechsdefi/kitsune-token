@@ -5,10 +5,10 @@ import Airdrop from "./Airdrop.js";
 
 function App() {
   return (
-        <Routes>
-          <Route path="/" element={<PageLinks />} />
-          <Route path="/airdrop" element={<Airdrop />} />
-        </Routes>
+      <Routes>
+        <Route path="/" element={<PageLinks />} />
+        <Route path="/airdrop" element={<Airdrop />} />
+      </Routes> 
   );
 }
 

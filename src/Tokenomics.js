@@ -19,11 +19,11 @@ function Tokenomics() {
           <p className="text-xl">Total Supply</p>
         </div>
         <div className="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 bg-pink-700 p-6 rounded-xl shadow-xl">
-           className="text-3xl font-semibold">3,600,000,000</p>
+          <p className="text-3xl font-semibold">3,600,000,000</p>
           <p className="text-xl">Community Airdrop</p>
         </div>
         <div className="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 bg-pink-700 p-6 rounded-xl shadow-xl">
-          <p className="text-3xl font-semibold">1,500,000,000</p>
+          <p className="text-3xl font-semibold">2,400,000,000</p>
           <p className="text-xl">Team & Development</p>
         </div>
         <div className="transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 bg-pink-700 p-6 rounded-xl shadow-xl">
