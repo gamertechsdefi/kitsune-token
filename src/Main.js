@@ -40,7 +40,7 @@ function Main() {
           <div className=" flex flex-row text-center justify-center">
           <div className="flex items-center text-center justify-center space-x-2 mr-8">
               <a
-                href="#"
+                href="https://dexscreener.com/bsc/0x969d92E917e68A3a4e8596770852d94BD315D194"
                 style={{
                   fontFamily: "Quinto, sans-serif",
                   letterSpacing: "1px"
@@ -52,7 +52,7 @@ function Main() {
             </div>
             <div className="flex items-center text-center justify-center space-x-2">
               <a
-                href="#"
+                href="https://pancakeswap.finance/swap?outputcurrency=0xb6623b503d269f415b9b5c60cdda3aa4fe34fd22&chainid=56&utm_source=dexscreener&utm_medium=app"
                 style={{
                   fontFamily: "Quinto, sans-serif",
                   letterSpacing: "1px"
