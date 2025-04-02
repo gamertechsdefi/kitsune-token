@@ -18,7 +18,7 @@ function Header() {
             {/* Logo or Brand name */}
             <div>
               <a
-                href="https://kitsunetoken.com"
+                href="/"
                 className="flex items-center py-5 px-2 text-white font-bold"
               >
                 <img src={logoImage} alt="logo icon" width="45px" />
